@@ -1,5 +1,83 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.f-size {
+  font-size: 16px;
+}
+.float-oya:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.float-side:first-child {
+  margin-right: 50px;
 
+}
+.float-side {
+  box-sizing: border-box;
+  width: 225px;
+  font-size: 16px;
+  float: left;
+}
+
+.oyatable {
+  display: table;
+}
+
+.tablebox {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 50px;
+}
+
+.tablesize {
+  box-sizing: border-box;
+  width: 225px;
+}
+.tablebox:last-child {
+  padding-right:0;
+}
+
+.inblock {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 225px;
+}
+
+.inblock:first-child {
+  margin-right: 40px;
+}
+
+.oyaflex {
+  display: flex;
+}
+.flexside {
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 225px;
+  margin: auto;
+}
+.flexside:first-child {
+  margin-bottom: 0px;
+}
+
+.mainbox {
+  font-size: 0;
+}
+.oyaleftbox {
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+  font-size: 16px;
+}
+.oyarightbox {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+  font-size: 16px;
+}
 /* 回答はここに書いてね */
