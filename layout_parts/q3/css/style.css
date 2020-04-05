@@ -12,7 +12,7 @@
   line-height: 22px;
 }
 
-.tableclass tr:last-child{
+.tableclass tfoot {
   border-top: dashed #000 2px;
 }
 
@@ -23,7 +23,7 @@
   color: white;
 }
 
-.tableclass tr:nth-child(2n+1) {
+.tableclass tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 

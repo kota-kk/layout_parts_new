@@ -4,7 +4,7 @@
 .f-size {
   font-size: 16px;
 }
-.float-oya:after {
+.float-parent:after {
   content: "";
   display: block;
   clear: both;
@@ -20,7 +20,7 @@
   float: left;
 }
 
-.oyatable {
+.parenttable {
   display: table;
 }
 
@@ -38,18 +38,23 @@
   padding-right:0;
 }
 
+.inparentblock {
+  font-size: 0;
+}
 .inblock {
+  font-size: 16px;
+  box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
-  box-sizing: border-box;
   width: 225px;
+  margin-right: 50px;
 }
 
-.inblock:first-child {
-  margin-right: 40px;
+.inblock:last-child {
+  margin-right: 0;
 }
 
-.oyaflex {
+.parentflex {
   display: flex;
 }
 .flexside {
@@ -65,14 +70,14 @@
 .mainbox {
   font-size: 0;
 }
-.oyaleftbox {
+.parentleftbox {
   vertical-align: top;
   display: inline-block;
   box-sizing: border-box;
   width: 300px;
   font-size: 16px;
 }
-.oyarightbox {
+.parentrightbox {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;

@@ -7,17 +7,12 @@
   border: solid 5px #222;
   border-radius: 30px;
   padding: 20px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  font-size: 16px;
-  line-height: 16px;
+  margin: 0 auto;
 }
 
 .comment:before, .comment:after {
   content: "";
   position: absolute;
-  width: 0;
-  height: 0;
   border: 20px solid transparent;
 }
 
@@ -30,6 +25,6 @@
 .comment:after{
   left:30px;
   bottom:-38px;
-  border-top-color: white;
+  border-top-color: #fff;
 }
 /* 回答はここに書いてね */

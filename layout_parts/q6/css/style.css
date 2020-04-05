@@ -9,9 +9,11 @@
   width: 90px;
   padding: 10px;
 }
-.text-a-oya {
+
+.text-a-parent {
   text-align: center;
 }
+
 .text-a {
   display: inline-block;
 }
@@ -46,7 +48,7 @@
   background-color: #fff; 
 }
 
-.oyaclamp{
+.parentclamp{
   position: relative;
 }
 .clamp {
@@ -58,7 +60,7 @@
   margin: auto;
 }
 
-.oyavariable {
+.parentvariable {
   transform: translate(0);
 }
 

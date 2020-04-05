@@ -7,11 +7,10 @@
   height: 333px;
   margin: 0 auto;
   position: relative;
-  transition: all 0.5s;
-
 }
 .image {
-  transition: 0.5s;
+  transition: .5s;
+  cursor: pointer;
 }
 
 .images:hover .image{
@@ -20,7 +19,6 @@
 
 .images:hover .textparent {
   bottom: 0;
-  left: 0;
 }
 
 .textparent {
@@ -28,8 +26,10 @@
   position: absolute;
   height: 100%;
   bottom: -100%;
-  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
-  transition: 0.5s;
+  left: 0;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.8));
+  transition: .5s;
+  cursor: pointer;
 }
 
 .hidetext {
